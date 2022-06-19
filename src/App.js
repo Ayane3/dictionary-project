@@ -14,7 +14,17 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small> Coded by Ayane Manuel</small>
+          <small>
+            {" "}
+            Coded by Ayane Manuel and is {""}
+            <a
+              href="https://github.com/Ayane3/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
