@@ -1,9 +1,22 @@
 body {
-  background: #f9f8fe;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: bold;
 }
 
 a {
   color: #9670f4;
+  text-decoration: none;
 }
 
 .App {
@@ -12,13 +25,8 @@ a {
 }
 
 .App-header {
+  text-align: center;
   margin: 30px 0;
-}
-
-.App-logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
 }
 
 .App-footer {
